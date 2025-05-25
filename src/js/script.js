@@ -124,6 +124,9 @@ function generateResume() {
 
 // When the button is clicked, it executes the three functions
 resumeButton.addEventListener("click", () => {
+
+  console.log("Generating PDF...");
+
   // 1. The class .scale-cv is added to the body, where it reduces the size of the elements
   scaleCv();
   // 2. The PDF is generated

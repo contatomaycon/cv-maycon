@@ -248,6 +248,29 @@ img {
   gap: 1.5rem;
 }
 
+.skills__data {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills__data .skills__name {
+  width: 50%;
+  box-sizing: border-box;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.skills__title {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
 .l-header {
   width: 100%;
   position: fixed;
@@ -491,6 +514,11 @@ img {
 .languages__content {
   grid-template-columns: repeat(2, 1fr);
   gap: 0;
+}
+
+.skills__section,
+.languages__section {
+  margin-bottom: var(--mb-3);
 }
 
 .skills__name,

@@ -94,12 +94,12 @@ themeButton.addEventListener("click", () => {
 
 /*==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================*/
 function scaleCv() {
-  document.body.classList.add("scale-cv");
+  areaCv.classList.add("scale-cv");
 }
 
 /*==================== REMOVE THE SIZE WHEN THE CV IS DOWNLOADED ====================*/
 function removeScale() {
-  document.body.classList.remove("scale-cv");
+  areaCv.classList.remove("scale-cv");
 }
 
 /*==================== GENERATE PDF ====================*/

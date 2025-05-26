@@ -102,10 +102,6 @@ body.scale-cv {
   display: none;
 }
 
-.scale-cv .bd-container {
-  max-width: 595px;
-}
-
 .scale-cv .section {
   padding: 0.5rem 0 0.8rem;
 }
@@ -179,6 +175,12 @@ body.scale-cv {
 
 .scale-cv .interests__container {
   column-gap: 2.5rem;
+}
+
+#area-cv.scale-cv {
+  transform: scale(0.75);
+  transform-origin: top left;
+  width: 133.33%;
 }
 
 body {

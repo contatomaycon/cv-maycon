@@ -1,5 +1,5 @@
 {
-  "name": "curriculoonline",
+  "name": "cv-maycon",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Ulisses Willian Reichenbach",
+  "author": "Maycon Douglas",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^3.0.4",
